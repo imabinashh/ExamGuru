@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+
+<html lang="en" style=""><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="web_standard" name="shell-type"/>
+<title>ExamGuru — Master the Pattern. Clear the Cutoff. Secure Your Rank.</title>
+<!-- Google Fonts: Plus Jakarta Sans (Headlines, Buttons, Badges) & Inter (Body, UI, Captions) -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+    @layer base {
+      html, body { 
+        margin:0; 
+        padding:0; 
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      }
+      body { overscroll-behavior: none; }
+      main > :first-child { margin-top:0 !important; }
+      main > :last-child { margin-bottom:0 !important; }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      }
+    }
+    ::-webkit-scrollbar { display:none; }
+  </style>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-variant": "#d3e4fe",
+            "accent-emerald": "#10B981",
+            "primary": "#3525cd",
+            "on-surface-variant": "#464555",
+            "on-primary-fixed": "#0f0069",
+            "border-strong": "#CBD5E1",
+            "on-error-container": "#93000a",
+            "on-background": "#0b1c30",
+            "surface": "#f8f9ff",
+            "tertiary-fixed-dim": "#4edea3",
+            "canvas-slate": "#F8FAFC",
+            "secondary-fixed": "#dae2fd",
+            "on-tertiary-container": "#67f4b7",
+            "brand-indigo-light": "#EEF2FF",
+            "outline-variant": "#c7c4d8",
+            "surface-bright": "#f8f9ff",
+            "background": "#f8f9ff",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-high": "#dce9ff",
+            "secondary": "#565e74",
+            "error-container": "#ffdad6",
+            "on-tertiary-fixed": "#002113",
+            "brand-indigo-hover": "#3730A3",
+            "surface-white": "#FFFFFF",
+            "tertiary-container": "#006e4b",
+            "surface-container": "#e5eeff",
+            "error": "#ba1a1a",
+            "inverse-on-surface": "#eaf1ff",
+            "surface-dim": "#cbdbf5",
+            "secondary-fixed-dim": "#bec6e0",
+            "on-secondary": "#ffffff",
+            "primary-fixed-dim": "#c3c0ff",
+            "inverse-surface": "#213145",
+            "surface-tint": "#4d44e3",
+            "on-tertiary-fixed-variant": "#005236",
+            "on-primary-container": "#dad7ff",
+            "text-secondary": "#334155",
+            "text-muted": "#64748B",
+            "primary-fixed": "#e2dfff",
+            "tertiary-fixed": "#6ffbbe",
+            "on-surface": "#0b1c30",
+            "on-secondary-fixed-variant": "#3f465c",
+            "tertiary": "#005338",
+            "on-primary-fixed-variant": "#3323cc",
+            "accent-rose-subtle": "#FEF2F2",
+            "on-tertiary": "#ffffff",
+            "accent-amber": "#F59E0B",
+            "border-subtle": "#E2E8F0",
+            "surface-container-highest": "#d3e4fe",
+            "secondary-container": "#dae2fd",
+            "surface-container-low": "#eff4ff",
+            "primary-container": "#4f46e5",
+            "on-error": "#ffffff",
+            "whatsapp-green": "#25D366",
+            "text-primary": "#0F172A",
+            "outline": "#777587",
+            "accent-amber-subtle": "#FFFBEB",
+            "accent-rose": "#EF4444",
+            "inverse-primary": "#c3c0ff",
+            "accent-emerald-subtle": "#ECFDF5",
+            "on-secondary-fixed": "#131b2e",
+            "on-primary": "#ffffff",
+            "on-secondary-container": "#5c647a",
+            "brand-indigo-deep": "#1E1B4B"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "2xl": "1rem",
+            "full": "9999px"
+          },
+          fontFamily: {
+            "sans": ["Inter", "system-ui", "-apple-system", "sans-serif"],
+            "title-md": ["Plus Jakarta Sans", "sans-serif"],
+            "display-hero": ["Plus Jakarta Sans", "sans-serif"],
+            "metric-display": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "label-lg": ["Inter", "sans-serif"],
+            "body-sm": ["Inter", "sans-serif"],
+            "body-md": ["Inter", "sans-serif"],
+            "body-lg": ["Inter", "sans-serif"],
+            "headline-sm": ["Plus Jakarta Sans", "sans-serif"],
+            "label-sm": ["Inter", "sans-serif"],
+            "headline-md": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-xl": ["Plus Jakarta Sans", "sans-serif"],
+            "label-md": ["Inter", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-surface text-on-surface antialiased font-sans selection:bg-brand-indigo-light selection:text-primary">
+<!-- TOP UTILITY & DESK ANNOUNCEMENT -->
+<header class="fixed top-0 left-0 right-0 z-50 shadow-sm font-sans">
+<!-- 1. Top Dark Utility Bar -->
+<div class="bg-[#0f172a] text-slate-300 text-xs py-2 px-4 sm:px-6 border-b border-slate-800">
+<div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+<div class="flex items-center gap-2 sm:gap-3 flex-wrap">
+<div class="inline-flex items-center gap-1.5 font-medium text-white">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+</span>
+<span class="">🎓 Admissions Open for 2026-2027 Batches</span>
+</div>
+<span class="hidden sm:inline text-slate-600">•</span>
+<a class="hidden sm:inline-flex items-center text-slate-300 hover:text-white transition-colors" href="tel:18008903456">
+          📞 National Helpline: 1800-890-3456
+        </a>
+</div>
+<div class="flex items-center gap-4 text-xs">
+<a class="inline-flex items-center gap-1 text-slate-300 hover:text-white transition-colors" href="#offline-centers">
+<span class="material-symbols-outlined text-[15px] text-slate-400">location_on</span>
+<span class="">📍 Offline Centers</span>
+</a>
+<span class="text-slate-700">|</span>
+<a class="inline-flex items-center gap-1 text-[#25D366] hover:brightness-110 font-medium transition-all" href="https://wa.me/919876543210" target="_blank">
+<span class="">💬 WhatsApp Counselor</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 2. Main White Navigation Bar -->
+<div class="bg-white border-b border-slate-200/80 shadow-sm py-3.5 px-4 sm:px-6">
+<div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+<!-- Left / Brand Area -->
+<div class="flex items-center">
+<a class="flex items-center gap-2 group" data-path="home" href="#">
+<img alt="ExamGuru" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U70DFN1ngQV-L4I1DXNtW7S5Jy9mQ-I5mjGXrWj8WIr2CRkROH5jpD6totPpmY_bungpteAv3Nj18eZY8X3twEU15g1jpQvDYdQGSsIfoIb-fj8W7bcmzoeeS3kWbKwMu6To3irDrnasKI3yNnny1PXuc9iaDs3mv-Txyvmj0trXjatGT_2546qHRga2ljuW-aR5u5kevx5qcrxjB_7Wek7sSp7VxI3cg9GbvuRmLbtPBcyBa-QND55Q"/>
+</a>
+<div class="hidden md:block h-8 w-px bg-slate-200 mx-3"></div>
+<div class="hidden md:flex flex-col text-[10px] uppercase font-bold tracking-tight leading-tight font-title-md">
+<span class="text-slate-500">Prepare Smarter.</span>
+<span class="text-indigo-600">Compete Stronger.</span>
+</div>
+</div>
+<!-- Center Navigation Links -->
+<nav class="hidden lg:flex items-center space-x-6 text-sm font-semibold text-slate-700 font-title-md">
+<a class="flex items-center gap-1 hover:text-indigo-600 transition-colors py-1 group" data-path="exams" href="#exam-selector">
+<span class="">Exams</span>
+<svg class="w-3.5 h-3.5 text-slate-400 group-hover:text-indigo-600 transition-colors" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</a>
+<a class="hover:text-indigo-600 transition-colors py-1" data-path="courses" href="#courses-grid">Courses</a>
+<a class="hover:text-indigo-600 transition-colors py-1" data-path="test-series" href="#cbt-simulator">Test Series</a>
+<a class="hover:text-indigo-600 transition-colors py-1" data-path="study-material" href="#learning-system">Study Material</a>
+<a class="hover:text-indigo-600 transition-colors py-1" data-path="current-affairs" href="#current-affairs">Current Affairs</a>
+<a class="hover:text-indigo-600 transition-colors py-1" data-path="results" href="#results">Results</a>
+</nav>
+<!-- Right / Utilities & CTA -->
+<div class="flex items-center gap-3">
+<!-- Search Bar -->
+<div class="hidden xl:flex items-center gap-2 rounded-lg border border-slate-200 bg-slate-50/80 px-3 py-1.5 text-xs text-slate-600 w-56 hover:border-slate-300 transition-colors cursor-pointer shadow-sm">
+<svg class="w-3.5 h-3.5 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span class="truncate text-slate-400">Search exams, courses...</span>
+<kbd class="ml-auto font-mono text-[10px] bg-white text-slate-500 px-1.5 py-0.5 rounded border border-slate-200">⌘K</kbd>
+</div>
+<!-- Login -->
+<a class="hidden sm:inline-block text-sm font-bold text-slate-700 hover:text-indigo-600 px-3 py-1.5 transition-colors font-title-md" data-path="login" href="#">
+          Login
+        </a>
+<!-- Get Started CTA Button -->
+<a class="bg-indigo-600 hover:bg-indigo-700 text-white text-xs md:text-sm font-bold px-4 py-2 rounded-lg shadow-sm shadow-indigo-200 transition-all inline-flex items-center justify-center font-title-md" data-path="signup" href="#exam-selector">
+          Get Started
+        </a>
+<!-- User Avatar Circle -->
+<div class="w-8 h-8 rounded-full bg-slate-900 text-white font-bold text-xs flex items-center justify-center border border-slate-200 shadow-inner select-none shrink-0 font-title-md">
+          M
+        </div>
+</div>
+</div>
+</div>
+</header>
+<main class="w-full pt-28 pb-16 bg-canvas-slate min-h-screen">
+<!-- HERO SECTION: AUTHORITY-FIRST ARCHITECTURE (Plus Jakarta Sans Headlines) -->
+<section class="w-full relative overflow-hidden pt-8 pb-16 lg:pb-20 bg-gradient-to-b from-surface-white via-brand-indigo-light/20 to-canvas-slate border-b border-border-subtle">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Left Column (Hero Content) -->
+<div class="lg:col-span-7 space-y-6">
+<h1 class="font-headline-xl text-4xl sm:text-5xl lg:text-[56px] text-brand-indigo-deep font-extrabold tracking-tight leading-[1.12]">
+          Your Government Exam Preparation, <span class="text-primary">All in One Place.</span>
+</h1>
+<p class="font-body-lg text-base sm:text-lg text-text-secondary max-w-2xl leading-relaxed">
+          Prepare for UPSC, SSC, Banking, Railways, Defence, Teaching and State-level examinations with structured courses, expert classes, real-pattern mock tests and granular progress tracking.
+        </p>
+<!-- Lead Capture Form / CTA bar -->
+<div class="max-w-xl">
+<form class="bg-surface-white p-2 rounded-xl border border-border-strong shadow-lg flex flex-col sm:flex-row items-stretch sm:items-center gap-2" onsubmit="return false;">
+<div class="flex items-center gap-3 px-3 flex-1">
+<span class="material-symbols-outlined text-text-muted text-[20px]">mail</span>
+<input class="w-full border-none focus:ring-0 text-sm font-medium text-text-primary placeholder:text-text-muted bg-transparent p-1 font-sans" placeholder="Enter mobile number or email" type="text"/>
+</div>
+<button class="px-6 py-3 rounded-lg bg-primary hover:bg-brand-indigo-hover text-white text-sm font-bold transition-all shadow-sm flex items-center justify-center gap-1.5 shrink-0 font-title-md" type="button">
+<span class="">Start Free Trial</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</form>
+<!-- Secondary Links -->
+<div class="flex flex-wrap items-center gap-4 pt-3 text-xs font-semibold text-text-secondary font-title-md">
+<a class="text-primary hover:underline inline-flex items-center gap-1" href="#courses-grid">
+<span class="">Explore 35+ Courses</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+<span class="text-text-muted">•</span>
+<a class="hover:text-primary inline-flex items-center gap-1.5 text-text-secondary" href="#cbt-simulator">
+<span class="material-symbols-outlined text-accent-emerald text-[18px]">play_circle</span>
+<span class="">Take Free Sample Mock</span>
+</a>
+</div>
+</div>
+<!-- Feature Badges -->
+<div class="flex flex-wrap items-center gap-4 sm:gap-6 pt-2 text-xs sm:text-sm font-semibold text-text-secondary font-title-md">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px] font-bold">check</span>
+<span class="">Live &amp; Recorded Classes</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px] font-bold">check</span>
+<span class="">15,000+ TCS Pattern Mocks</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px] font-bold">check</span>
+<span class="">State &amp; Central Coverage</span>
+</div>
+</div>
+<!-- Social Proof Rating Block -->
+<div class="pt-4 flex flex-wrap items-center gap-4">
+<div class="flex items-center -space-x-2">
+<img alt="Aspirant" class="w-9 h-9 rounded-full border-2 border-white object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMEwgBVbWk0-5DHF__cUYm6WVq_tVpwg4iIWl5WyF_zAGI9p1Mn3vjzyUFtsDnhErWUoEu9G2mqksmg5k72iPZ24e4YlptcWYz8-FvhyIuT1OlGMRkkzIBVI_x9IxRnYpncg5BSz5RSzZABReMg7mxvaHSvjTz59kCxUEohuR1Lv4R-LC0Zz4jb-SDhurk1sPWp1xeLN3WNMfOdWl0hdjQI6LTIo7m6xdsEz9HQ0faH_Ml35jPyUwv"/>
+<img alt="Aspirant" class="w-9 h-9 rounded-full border-2 border-white object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCJcMBnd9Tr0DBmQkf46ZBDkWs-Q-RNIo9-DLFpi6r9v3NXSTYptCwcNP-9uZ1IFFhuPGFU5GANcinvGaWHFWqf3W2p5ECfTg_N6Afi5noHmwClhgh-D3u-4emkU2-bA6T05pyIVC6C7mKjAPRbLrs_nta5-U18VVZVzDfsILnKskkMeP2J7Rtq8XPAVr8tN3705Cjv1tw2CA09UyAtHDP16oupd0HMofJz4HlRMuSlcwKHCSAu9MM"/>
+<img alt="Aspirant" class="w-9 h-9 rounded-full border-2 border-white object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDz6ebfoiIqFVTx5SQUgslEpoEB-O81OIXYyRQka3lPyJFVJ5k4pjut2yXtA8TojhvUi9WMUzQQruXii1I9TYVSrnj14ZYYzE_ZOXxJ6XU43NckYpa46hVFtQBSZMJ7DLHBOw16EFOtJgwzk4Nd5LSjn1b5XS_rmmbNaZdqq1qbVCuQqxTwFSRbH_9lmai_kK6WaMV_tEGGp2BpToF52-0ucB7XgyaDYDiCdQ49gX6xvN2qsWY20aiR"/>
+<div class="w-9 h-9 rounded-full border-2 border-white bg-brand-indigo-deep text-white text-[11px] font-bold flex items-center justify-center font-title-md">
+              +450k
+            </div>
+</div>
+<div class="space-y-0.5">
+<div class="flex items-center gap-1.5">
+<div class="flex text-accent-amber text-xs">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="text-xs font-bold text-text-primary font-title-md">4.9 / 5</span>
+</div>
+<p class="text-xs text-text-muted">Trusted by 450,000+ aspirants across India (18,200+ reviews)</p>
+</div>
+</div>
+</div>
+<!-- Right Column (Student Preparation Dashboard Widget) -->
+<div class="lg:col-span-5 relative space-y-4">
+<!-- Card 1: Today's Target Course Card with Badge -->
+<div class="relative bg-surface-white rounded-2xl border-2 border-border-strong shadow-xl p-5 pt-6 space-y-4">
+<!-- Top Right Qualified Badge -->
+<div class="absolute -top-3.5 right-4 inline-flex items-center gap-1 px-3 py-1 rounded-full bg-accent-amber text-brand-indigo-deep text-[11px] font-extrabold tracking-wider uppercase border border-amber-300 shadow-sm font-title-md">
+<span class="material-symbols-outlined text-[15px]">verified</span>
+<span class="">TIER 1 + 2 QUALIFIED</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-[11px] font-bold text-text-muted uppercase tracking-wider font-title-md">TODAY'S TARGET COURSE</span>
+<button class="text-text-muted hover:text-text-primary" type="button">
+<span class="material-symbols-outlined text-[18px]">more_horiz</span>
+</button>
+</div>
+<h3 class="font-title-md text-base sm:text-lg font-bold text-brand-indigo-deep leading-snug">
+            Quantitative Aptitude: Number Systems &amp; Algebra
+          </h3>
+<!-- Green Inner Card -->
+<div class="bg-emerald-600 rounded-xl p-4 text-white flex items-center justify-between gap-4 shadow-sm">
+<div class="flex items-center gap-3.5">
+<!-- Donut Indicator -->
+<div class="w-12 h-12 rounded-full border-4 border-emerald-300 flex items-center justify-center text-xs font-extrabold font-metric-display shrink-0">
+                80%
+              </div>
+<div>
+<h4 class="font-title-md font-bold text-sm leading-tight text-white">Advanced Speed Drills</h4>
+<div class="flex items-center gap-3 text-[11px] text-emerald-100 mt-1">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">check_circle</span> 25 lessons
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">schedule</span> 45 min daily
+                  </span>
+</div>
+</div>
+</div>
+<button class="px-3.5 py-2 rounded-lg bg-surface-white hover:bg-slate-50 text-emerald-900 text-xs font-bold shrink-0 transition-colors shadow-xs inline-flex items-center gap-1 font-title-md" type="button">
+<span class="">Continue Study</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+<!-- Card 1 Footer -->
+<div class="pt-1 flex items-center justify-between text-xs font-medium">
+<span class="text-emerald-700 font-semibold font-title-md">80% success score on ExamGuru</span>
+<span class="text-text-muted text-[11px]">Module 4 of 6 • 8 assignments left</span>
+</div>
+</div>
+<!-- Bottom 2 Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<!-- Card 2: Performance Graph Card -->
+<div class="bg-surface-white rounded-2xl border-2 border-border-strong shadow-lg p-4 space-y-3 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<h4 class="font-title-md text-sm font-bold text-brand-indigo-deep">Performance</h4>
+<span class="px-2 py-0.5 rounded bg-accent-emerald-subtle text-accent-emerald text-[11px] font-bold font-title-md">Top 2%</span>
+</div>
+<p class="text-[11px] text-text-muted mt-0.5">Accuracy vs Expected Cutoff</p>
+</div>
+<!-- Spline / Wave Graph SVG -->
+<div class="py-1">
+<svg class="w-full h-20 overflow-visible" viewbox="0 0 240 80">
+<!-- Cutoff baseline / amber curve -->
+<path d="M 0 65 Q 40 60, 80 62 T 160 56 T 240 50" fill="none" stroke="#F59E0B" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- User score / indigo curve -->
+<path d="M 0 72 C 40 68, 60 50, 100 35 C 140 20, 170 55, 200 45 C 220 38, 230 25, 240 20" fill="none" stroke="#4f46e5" stroke-linecap="round" stroke-width="3"></path>
+<!-- High point dot -->
+<circle cx="240" cy="20" fill="#4f46e5" r="4"></circle>
+</svg>
+<!-- X Axis Labels -->
+<div class="flex justify-between text-[9px] font-medium text-text-muted pt-1 border-t border-border-subtle mt-1 font-title-md">
+<span class="">Nov</span>
+<span class="">Dec</span>
+<span class="">Jan</span>
+<span class="">Feb</span>
+<span class="text-primary font-bold">Mar</span>
+<span class="">Apr</span>
+<span class="">May</span>
+</div>
+</div>
+<!-- Legend -->
+<div class="flex items-center justify-between text-[11px] pt-1">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-indigo-600"></span>
+<span class="text-text-primary font-semibold font-title-md">Your Score (92%)</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-accent-amber"></span>
+<span class="text-text-muted">Cutoff (68%)</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Scheduled Today Card -->
+<div class="bg-surface-white rounded-2xl border-2 border-border-strong shadow-lg p-4 space-y-3 flex flex-col justify-between">
+<div>
+<h4 class="font-title-md text-sm font-bold text-brand-indigo-deep">Scheduled Today</h4>
+</div>
+<div class="space-y-2">
+<!-- Indigo Item -->
+<div class="p-2.5 rounded-xl bg-indigo-700 text-white flex items-center justify-between gap-2 shadow-xs">
+<div class="flex items-center gap-2 truncate">
+<span class="material-symbols-outlined text-[16px] text-white shrink-0">check_circle</span>
+<span class="text-xs font-bold truncate font-title-md">SSC CGL Full Mock #09</span>
+</div>
+<span class="font-mono text-[10px] bg-white/20 text-white px-1.5 py-0.5 rounded shrink-0 font-bold">10:00 AM</span>
+</div>
+<!-- Amber Item -->
+<div class="p-2.5 rounded-xl bg-amber-400 text-brand-indigo-deep flex items-center justify-between gap-2 shadow-xs">
+<div class="flex items-center gap-2 truncate">
+<span class="material-symbols-outlined text-[16px] text-brand-indigo-deep shrink-0">check_circle</span>
+<span class="text-xs font-bold truncate font-title-md">Daily CA Capsule &amp; Quiz</span>
+</div>
+<span class="font-mono text-[10px] bg-black/10 text-brand-indigo-deep px-1.5 py-0.5 rounded shrink-0 font-bold">8:00 AM</span>
+</div>
+</div>
+<!-- Bottom Link & Reminders -->
+<div class="flex items-center justify-between text-xs pt-1">
+<span class="text-text-muted inline-flex items-center gap-1 text-[11px]">
+<span class="material-symbols-outlined text-[14px] text-accent-emerald">notifications_active</span>
+<span class="">Live reminders on</span>
+</span>
+<a class="text-primary font-bold hover:underline inline-flex items-center gap-0.5 text-[11px] font-title-md" href="#cbt-simulator">
+<span class="">View all</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: EXAM SELECTION ARCHITECTURE (Cadre & Vacancy Deep Selector) -->
+<section class="w-full py-16 lg:py-24 bg-surface-white border-b border-border-subtle" id="exam-selector">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div class="max-w-2xl space-y-2">
+<span class="text-xs font-bold uppercase tracking-wider text-primary font-title-md">Cadre Specialization Engine</span>
+<h2 class="font-headline-lg text-3xl sm:text-4xl text-brand-indigo-deep font-bold tracking-tight">
+              Select Your Examination Cadre
+            </h2>
+<p class="text-sm sm:text-base text-text-muted">
+              Choose your targeted commission. Access authentic syllabus breakdowns, historical cutoff margins, previous 15-year question trends, and structured mentorship.
+            </p>
+</div>
+<!-- Category Pills -->
+<div class="flex flex-wrap gap-1.5 p-1 bg-canvas-slate rounded-lg border border-border-subtle text-xs font-semibold font-title-md">
+<button class="px-3.5 py-1.5 rounded-md bg-brand-indigo-deep text-white shadow-xs" type="button">All Cadres</button>
+<button class="px-3.5 py-1.5 rounded-md text-text-secondary hover:text-primary transition-colors" type="button">UPSC &amp; State PSC</button>
+<button class="px-3.5 py-1.5 rounded-md text-text-secondary hover:text-primary transition-colors" type="button">SSC &amp; Railways</button>
+<button class="px-3.5 py-1.5 rounded-md text-text-secondary hover:text-primary transition-colors" type="button">Banking &amp; RBI</button>
+<button class="px-3.5 py-1.5 rounded-md text-text-secondary hover:text-primary transition-colors" type="button">Defence</button>
+</div>
+</div>
+<!-- Rich Authority Exam Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1: UPSC CSE -->
+<div class="bg-canvas-slate rounded-xl border border-border-subtle hover:border-primary p-6 transition-all hover:shadow-lg flex flex-col justify-between group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-brand-indigo-light text-primary flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[28px]">account_balance</span>
+</div>
+<span class="px-2.5 py-1 rounded bg-brand-indigo-deep text-white text-[11px] font-bold font-title-md">Premier Cadre</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-xl font-bold text-brand-indigo-deep group-hover:text-primary transition-colors">
+                  UPSC Civil Services (IAS / IPS / IFS)
+                </h3>
+<p class="text-xs text-text-muted mt-1 leading-relaxed">
+                  General Studies Paper I &amp; II (CSAT), Daily Mains Answer Writing with 24-hr evaluation, and interview guidance board.
+                </p>
+</div>
+<!-- Cadre Metrics -->
+<div class="grid grid-cols-3 gap-2 py-3 border-y border-border-subtle text-center text-xs">
+<div>
+<span class="text-text-muted block text-[10px]">Expected Seats</span>
+<span class="font-bold text-text-primary font-title-md">1,056+</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">Last Prelims Cutoff</span>
+<span class="font-bold text-primary font-title-md">75.41 / 200</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">Batch Pattern</span>
+<span class="font-bold text-accent-emerald font-title-md">Mains + PT</span>
+</div>
+</div>
+</div>
+<div class="pt-4 flex items-center justify-between">
+<a class="text-xs font-bold text-text-secondary hover:text-primary flex items-center gap-1 font-title-md" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span class="">Download Syllabus PDF</span>
+</a>
+<a class="px-3.5 py-1.5 rounded bg-primary text-white text-xs font-bold hover:bg-brand-indigo-hover transition-colors font-title-md" href="#courses-grid">
+                Start Prep →
+              </a>
+</div>
+</div>
+<!-- Card 2: SSC CGL & CHSL -->
+<div class="bg-canvas-slate rounded-xl border border-border-subtle hover:border-primary p-6 transition-all hover:shadow-lg flex flex-col justify-between group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-accent-emerald-subtle text-accent-emerald flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[28px]">badge</span>
+</div>
+<span class="px-2.5 py-1 rounded bg-accent-emerald text-white text-[11px] font-bold font-title-md">17,700+ Vacancies</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-xl font-bold text-brand-indigo-deep group-hover:text-primary transition-colors">
+                  SSC CGL &amp; CHSL (Tier-1 + Tier-2)
+                </h3>
+<p class="text-xs text-text-muted mt-1 leading-relaxed">
+                  Full syllabus coverage: Advanced Math shortcuts, English comprehension, Reasoning matrices, and Computer Module with negative marking controls.
+                </p>
+</div>
+<!-- Cadre Metrics -->
+<div class="grid grid-cols-3 gap-2 py-3 border-y border-border-subtle text-center text-xs">
+<div>
+<span class="text-text-muted block text-[10px]">Negative Penalty</span>
+<span class="font-bold text-accent-rose font-title-md">-0.50 Mark</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">Target Score</span>
+<span class="font-bold text-primary font-title-md">150+ Raw</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">Full CBTs</span>
+<span class="font-bold text-accent-emerald font-title-md">60 Mocks</span>
+</div>
+</div>
+</div>
+<div class="pt-4 flex items-center justify-between">
+<a class="text-xs font-bold text-text-secondary hover:text-primary flex items-center gap-1 font-title-md" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span class="">Download Syllabus PDF</span>
+</a>
+<a class="px-3.5 py-1.5 rounded bg-primary text-white text-xs font-bold hover:bg-brand-indigo-hover transition-colors font-title-md" href="#courses-grid">
+                Start Prep →
+              </a>
+</div>
+</div>
+<!-- Card 3: Banking & Insurance (SBI / IBPS / RBI) -->
+<div class="bg-canvas-slate rounded-xl border border-border-subtle hover:border-primary p-6 transition-all hover:shadow-lg flex flex-col justify-between group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-primary flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[28px]">account_balance_wallet</span>
+</div>
+<span class="px-2.5 py-1 rounded bg-brand-indigo-light text-primary border border-primary/20 text-[11px] font-bold font-title-md">Speed Intensive</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-xl font-bold text-brand-indigo-deep group-hover:text-primary transition-colors">
+                  Banking &amp; Insurance (SBI / IBPS PO &amp; Clerk)
+                </h3>
+<p class="text-xs text-text-muted mt-1 leading-relaxed">
+                  High-level Seating Arrangements, Multi-Variable DI, Sectional Time-Locked drills, and Financial Awareness daily dossiers.
+                </p>
+</div>
+<!-- Cadre Metrics -->
+<div class="grid grid-cols-3 gap-2 py-3 border-y border-border-subtle text-center text-xs">
+<div>
+<span class="text-text-muted block text-[10px]">Prelims Cutoff</span>
+<span class="font-bold text-text-primary font-title-md">59.50 / 100</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">Timer Protocol</span>
+<span class="font-bold text-primary font-title-md">20m / Sec</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">AIR Percentile</span>
+<span class="font-bold text-accent-emerald font-title-md">95%+ Goal</span>
+</div>
+</div>
+</div>
+<div class="pt-4 flex items-center justify-between">
+<a class="text-xs font-bold text-text-secondary hover:text-primary flex items-center gap-1 font-title-md" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span class="">Download Syllabus PDF</span>
+</a>
+<a class="px-3.5 py-1.5 rounded bg-primary text-white text-xs font-bold hover:bg-brand-indigo-hover transition-colors font-title-md" href="#courses-grid">
+                Start Prep →
+              </a>
+</div>
+</div>
+<!-- Card 4: Railways RRB -->
+<div class="bg-canvas-slate rounded-xl border border-border-subtle hover:border-primary p-6 transition-all hover:shadow-lg flex flex-col justify-between group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-accent-amber-subtle text-accent-amber flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[28px]">train</span>
+</div>
+<span class="px-2.5 py-1 rounded bg-accent-amber text-white text-[11px] font-bold font-title-md">RRB NTPC &amp; Group D</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-xl font-bold text-brand-indigo-deep group-hover:text-primary transition-colors">
+                  Railways Recruitment Board (RRB)
+                </h3>
+<p class="text-xs text-text-muted mt-1 leading-relaxed">
+                  General Science intensive (Physics/Chemistry/Bio NCERT foundation), static GK flashcards, and bilingual full test papers.
+                </p>
+</div>
+<!-- Cadre Metrics -->
+<div class="grid grid-cols-3 gap-2 py-3 border-y border-border-subtle text-center text-xs">
+<div>
+<span class="text-text-muted block text-[10px]">Exam Engine</span>
+<span class="font-bold text-text-primary font-title-md">TCS Exact</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">Negative Penalty</span>
+<span class="font-bold text-accent-rose font-title-md">-0.33 Mark</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">Available Medium</span>
+<span class="font-bold text-accent-emerald font-title-md">Hindi + Eng</span>
+</div>
+</div>
+</div>
+<div class="pt-4 flex items-center justify-between">
+<a class="text-xs font-bold text-text-secondary hover:text-primary flex items-center gap-1 font-title-md" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span class="">Download Syllabus PDF</span>
+</a>
+<a class="px-3.5 py-1.5 rounded bg-primary text-white text-xs font-bold hover:bg-brand-indigo-hover transition-colors font-title-md" href="#courses-grid">
+                Start Prep →
+              </a>
+</div>
+</div>
+<!-- Card 5: State PSCs -->
+<div class="bg-canvas-slate rounded-xl border border-border-subtle hover:border-primary p-6 transition-all hover:shadow-lg flex flex-col justify-between group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-brand-indigo-light text-primary flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[28px]">map</span>
+</div>
+<span class="px-2.5 py-1 rounded bg-secondary text-white text-[11px] font-bold font-title-md">UPPSC • BPSC • MPPSC</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-xl font-bold text-brand-indigo-deep group-hover:text-primary transition-colors">
+                  State Public Service Commissions
+                </h3>
+<p class="text-xs text-text-muted mt-1 leading-relaxed">
+                  State-specific GK, regional history, administrative law, and 10-year solved state papers evaluated by retired state civil officers.
+                </p>
+</div>
+<!-- Cadre Metrics -->
+<div class="grid grid-cols-3 gap-2 py-3 border-y border-border-subtle text-center text-xs">
+<div>
+<span class="text-text-muted block text-[10px]">Active States</span>
+<span class="font-bold text-text-primary font-title-md">12 States</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">State Modules</span>
+<span class="font-bold text-primary font-title-md">Specialized</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">Evaluation</span>
+<span class="font-bold text-accent-emerald font-title-md">1-on-1 Call</span>
+</div>
+</div>
+</div>
+<div class="pt-4 flex items-center justify-between">
+<a class="text-xs font-bold text-text-secondary hover:text-primary flex items-center gap-1 font-title-md" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span class="">Download Syllabus PDF</span>
+</a>
+<a class="px-3.5 py-1.5 rounded bg-primary text-white text-xs font-bold hover:bg-brand-indigo-hover transition-colors font-title-md" href="#courses-grid">
+                Start Prep →
+              </a>
+</div>
+</div>
+<!-- Card 6: Defence NDA & CDS -->
+<div class="bg-canvas-slate rounded-xl border border-border-subtle hover:border-primary p-6 transition-all hover:shadow-lg flex flex-col justify-between group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high text-primary flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[28px]">shield</span>
+</div>
+<span class="px-2.5 py-1 rounded bg-brand-indigo-deep text-white text-[11px] font-bold font-title-md">NDA / CDS / AFCAT</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-xl font-bold text-brand-indigo-deep group-hover:text-primary transition-colors">
+                  Defence Services &amp; SSB Interview
+                </h3>
+<p class="text-xs text-text-muted mt-1 leading-relaxed">
+                  Written syllabus mastery followed by 5-Day SSB protocol: OIR tests, PPDT, GTO tasks, and psychological profiling by ex-Service Selection Officers.
+                </p>
+</div>
+<!-- Cadre Metrics -->
+<div class="grid grid-cols-3 gap-2 py-3 border-y border-border-subtle text-center text-xs">
+<div>
+<span class="text-text-muted block text-[10px]">SSB Board</span>
+<span class="font-bold text-text-primary font-title-md">Col. Retd.</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">OIR Practice</span>
+<span class="font-bold text-primary font-title-md">2,500+ Qs</span>
+</div>
+<div>
+<span class="text-text-muted block text-[10px]">Batch Mode</span>
+<span class="font-bold text-accent-emerald font-title-md">Hybrid</span>
+</div>
+</div>
+</div>
+<div class="pt-4 flex items-center justify-between">
+<a class="text-xs font-bold text-text-secondary hover:text-primary flex items-center gap-1 font-title-md" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span class="">Download Syllabus PDF</span>
+</a>
+<a class="px-3.5 py-1.5 rounded bg-primary text-white text-xs font-bold hover:bg-brand-indigo-hover transition-colors font-title-md" href="#courses-grid">
+                Start Prep →
+              </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: 4-STAGE LEARNING PIPELINE (Interactive Stepper Timeline) -->
+<section class="w-full py-16 lg:py-24 bg-canvas-slate" id="learning-system">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-16">
+<div class="text-center max-w-3xl mx-auto space-y-3">
+<span class="text-xs font-bold uppercase tracking-wider text-primary font-title-md">Pedagogical Rigor</span>
+<h2 class="font-headline-lg text-3xl sm:text-4xl text-brand-indigo-deep font-bold tracking-tight">
+            The 4-Stage Authority Learning Pipeline
+          </h2>
+<p class="text-sm sm:text-base text-text-muted">
+            Unstructured preparation produces volatile rank fluctuations. ExamGuru locks your daily progress into an authentic 4-tier milestone engine.
+          </p>
+</div>
+<!-- Connected Stepper Timeline -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative">
+<!-- Step 1 -->
+<div class="bg-surface-white p-6 rounded-xl border border-border-subtle shadow-xs flex flex-col justify-between space-y-5 relative">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="font-metric-display text-3xl font-extrabold text-primary">01</span>
+<span class="px-2 py-0.5 rounded bg-brand-indigo-light text-primary text-[10px] font-bold uppercase font-title-md">Foundation</span>
+</div>
+<h3 class="font-title-md text-lg font-bold text-brand-indigo-deep">Concept Mastery</h3>
+<p class="text-xs text-text-muted leading-relaxed">
+                Faculty-led interactive lectures covering every micro-topic with bilingual handbooks, NCERT standard summaries, and fundamental derivation proofs.
+              </p>
+</div>
+<div class="pt-4 border-t border-border-subtle space-y-2 text-xs">
+<div class="flex items-center gap-1.5 text-text-secondary font-medium">
+<span class="material-symbols-outlined text-[16px] text-accent-emerald">task_alt</span>
+<span class="">Bilingual Notes (Hindi / Eng)</span>
+</div>
+<div class="flex items-center gap-1.5 text-text-secondary font-medium">
+<span class="material-symbols-outlined text-[16px] text-accent-emerald">task_alt</span>
+<span class="">100% Micro-Syllabus Mapping</span>
+</div>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-white p-6 rounded-xl border border-border-subtle shadow-xs flex flex-col justify-between space-y-5 relative">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="font-metric-display text-3xl font-extrabold text-primary">02</span>
+<span class="px-2 py-0.5 rounded bg-accent-emerald-subtle text-accent-emerald text-[10px] font-bold uppercase font-title-md">Conditioning</span>
+</div>
+<h3 class="font-title-md text-lg font-bold text-brand-indigo-deep">Adaptive Practice Engine</h3>
+<p class="text-xs text-text-muted leading-relaxed">
+                50,000+ chapter-wise Previous Year Questions (PYQs) categorized by difficulty. The algorithm serves harder questions as your topic accuracy crosses 80%.
+              </p>
+</div>
+<div class="pt-4 border-t border-border-subtle space-y-2 text-xs">
+<div class="flex items-center gap-1.5 text-text-secondary font-medium">
+<span class="material-symbols-outlined text-[16px] text-accent-emerald">task_alt</span>
+<span class="">15-Year Solved PYQ Banks</span>
+</div>
+<div class="flex items-center gap-1.5 text-text-secondary font-medium">
+<span class="material-symbols-outlined text-[16px] text-accent-emerald">task_alt</span>
+<span class="">Video Solutions for All Quants</span>
+</div>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-white p-6 rounded-xl border border-border-subtle shadow-xs flex flex-col justify-between space-y-5 relative">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="font-metric-display text-3xl font-extrabold text-primary">03</span>
+<span class="px-2 py-0.5 rounded bg-accent-amber-subtle text-accent-amber text-[10px] font-bold uppercase font-title-md">Simulation</span>
+</div>
+<h3 class="font-title-md text-lg font-bold text-brand-indigo-deep">Exam-Floor CBT Engine</h3>
+<p class="text-xs text-text-muted leading-relaxed">
+                Identical to the authentic TCS iON &amp; NTA console. Exact font sizing, sectional timers, negative marking penalties, and instant question status palette.
+              </p>
+</div>
+<div class="pt-4 border-t border-border-subtle space-y-2 text-xs">
+<div class="flex items-center gap-1.5 text-text-secondary font-medium">
+<span class="material-symbols-outlined text-[16px] text-accent-emerald">task_alt</span>
+<span class="">TCS iON Screen-for-Screen Match</span>
+</div>
+<div class="flex items-center gap-1.5 text-text-secondary font-medium">
+<span class="material-symbols-outlined text-[16px] text-accent-emerald">task_alt</span>
+<span class="">Live All-India Sunday Mocks</span>
+</div>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-white p-6 rounded-xl border border-border-subtle shadow-xs flex flex-col justify-between space-y-5 relative">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="font-metric-display text-3xl font-extrabold text-accent-emerald">04</span>
+<span class="px-2 py-0.5 rounded bg-accent-emerald text-white text-[10px] font-bold uppercase font-title-md">Verification</span>
+</div>
+<h3 class="font-title-md text-lg font-bold text-brand-indigo-deep">AIR Diagnostics &amp; Cutoff</h3>
+<p class="text-xs text-text-muted leading-relaxed">
+                Granular diagnostic reports pinpoint time wasted on unattempted questions, high-risk guess penalties, and provide a normalized percentile rank among 150,000 test takers.
+              </p>
+</div>
+<div class="pt-4 border-t border-border-subtle space-y-2 text-xs">
+<div class="flex items-center gap-1.5 text-text-secondary font-medium">
+<span class="material-symbols-outlined text-[16px] text-accent-emerald">task_alt</span>
+<span class="">Negative Marking Penalty Audit</span>
+</div>
+<div class="flex items-center gap-1.5 text-text-secondary font-medium">
+<span class="material-symbols-outlined text-[16px] text-accent-emerald">task_alt</span>
+<span class="">Real-Time All India Rank (AIR)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: POPULAR COURSES GRID (Instructor Credentials, EMI, Demos) -->
+<section class="w-full py-16 lg:py-24 bg-surface-white border-y border-border-subtle" id="courses-grid">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div class="max-w-xl space-y-2">
+<span class="text-xs font-bold uppercase tracking-wider text-primary font-title-md">Curated Master Batches</span>
+<h2 class="font-headline-lg text-3xl sm:text-4xl text-brand-indigo-deep font-bold tracking-tight">
+              Featured Flagship Programs
+            </h2>
+<p class="text-sm sm:text-base text-text-muted">
+              Structured year-long and fast-track cohorts led by former civil servants, rank holders, and seasoned subject deans.
+            </p>
+</div>
+<a class="inline-flex items-center gap-1 text-primary text-sm font-bold hover:underline font-title-md" href="#">
+<span class="">Explore All 38 Active Batches</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Course 1 -->
+<div class="bg-canvas-slate rounded-xl border border-border-subtle overflow-hidden flex flex-col justify-between hover:shadow-xl transition-all group">
+<div>
+<div class="relative aspect-video w-full overflow-hidden bg-surface-container">
+<img alt="SSC CGL Batch" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYUL6fFKNwt8vlezhuC-1q1jL5_xOLDJfKIEwJxOi4A7xIEwtHmLLOVaDhGN_IYhYtYosn0pnx01tmjOMpVorZzxEF33P9EyGaXEdIAUh54hIrai6qeTJM3paCn7Tcw5yJKtjpL2IoTXYTi7hF2ndcrhEgzDPudD1DwvqUi7f1BkFRqMSPTVeEODW2cw8-thcZoEhjPzOEApILqmtl4Pf_Pnna7NMi_5YVK2OD-YX2EFLrLbXYZ0-8"/>
+<div class="absolute top-2 left-2 flex gap-1 font-title-md">
+<span class="px-2 py-0.5 rounded bg-brand-indigo-deep text-white text-[10px] font-bold">Tier 1 + 2</span>
+<span class="px-2 py-0.5 rounded bg-accent-emerald text-white text-[10px] font-bold">Live + Recorded</span>
+</div>
+<span class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-surface-white/95 font-bold text-xs text-text-primary flex items-center gap-1 shadow-xs font-title-md">
+<span class="material-symbols-outlined text-[14px] text-accent-amber" style="font-variation-settings: 'FILL' 1;">star</span>
+                  4.9 (4,210)
+                </span>
+</div>
+<div class="p-5 space-y-3">
+<div class="flex items-center gap-1 text-[11px] text-text-muted font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">schedule</span>
+<span class="">Batch Starts: 15th March • 8:00 AM</span>
+</div>
+<h3 class="font-title-md text-base font-bold text-brand-indigo-deep group-hover:text-primary transition-colors leading-snug">
+                  SSC CGL Super-100 Intensive Batch 2026-27
+                </h3>
+<!-- Instructor Credentials -->
+<div class="p-2.5 rounded bg-surface-white border border-border-subtle flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-full bg-brand-indigo-light text-primary flex items-center justify-center font-bold text-xs font-title-md">
+                    RV
+                  </div>
+<div class="text-[11px] leading-tight">
+<span class="font-bold text-text-primary block font-title-md">Dr. R. K. Verma</span>
+<span class="text-text-muted">Ex-IRS • 14 Years Teaching</span>
+</div>
+</div>
+<p class="text-xs text-text-muted line-clamp-2">
+                  Complete arithmetic shortcuts, grammar error detection rules, 45 full-length TCS mocks, and printed workbook delivered to your address.
+                </p>
+</div>
+</div>
+<div class="p-5 pt-0 border-t border-border-subtle mt-2">
+<div class="flex items-center justify-between pt-3">
+<div>
+<span class="text-[11px] text-text-muted line-through font-title-md">₹9,999</span>
+<div class="text-lg font-bold text-brand-indigo-deep font-metric-display">₹4,999</div>
+<span class="text-[10px] text-accent-emerald font-semibold font-title-md">No-Cost EMI: ₹1,666/mo</span>
+</div>
+<div class="flex flex-col gap-1">
+<a class="px-3 py-1.5 rounded bg-primary text-white text-xs font-bold text-center hover:bg-brand-indigo-hover transition-colors font-title-md" href="#cbt-simulator">
+                    Enroll Now
+                  </a>
+<a class="text-[10px] text-center text-primary font-semibold hover:underline font-title-md" href="#">
+                    Watch Free Demo
+                  </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Course 2 -->
+<div class="bg-canvas-slate rounded-xl border border-border-subtle overflow-hidden flex flex-col justify-between hover:shadow-xl transition-all group">
+<div>
+<div class="relative aspect-video w-full overflow-hidden bg-surface-container">
+<img alt="UPSC Foundation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHruOnDyHEVjvixKgEOvu21MAeoh50tfP7iCEaNJbsURxvfUPp1PG7sjFz1gx3i5JW30sX-aDbxQv-KRkdY8fabHM3PLVigrkf-6eM6vL7ZXc6MXlWaI2o7WzK_shTmLXKQSFuQ8jCdbZEIxlT2j3Bxucj8PgGhy8axS4Kt15JDiyBoHXyc8VieaG8EMwVrfOWJHXiAKFZJl7VoTM8Db-0kJAD83qpkA08SLSmT18XqaH5X94YLNXo"/>
+<div class="absolute top-2 left-2 flex gap-1 font-title-md">
+<span class="px-2 py-0.5 rounded bg-brand-indigo-deep text-white text-[10px] font-bold">12 Months</span>
+<span class="px-2 py-0.5 rounded bg-primary text-white text-[10px] font-bold">GS + CSAT</span>
+</div>
+<span class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-surface-white/95 font-bold text-xs text-text-primary flex items-center gap-1 shadow-xs font-title-md">
+<span class="material-symbols-outlined text-[14px] text-accent-amber" style="font-variation-settings: 'FILL' 1;">star</span>
+                  4.9 (1,840)
+                </span>
+</div>
+<div class="p-5 space-y-3">
+<div class="flex items-center gap-1 text-[11px] text-text-muted font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">schedule</span>
+<span class="">Daily 3 Hours • Live Q&amp;A</span>
+</div>
+<h3 class="font-title-md text-base font-bold text-brand-indigo-deep group-hover:text-primary transition-colors leading-snug">
+                  UPSC Civil Services Foundation 2026-27
+                </h3>
+<!-- Instructor Credentials -->
+<div class="p-2.5 rounded bg-surface-white border border-border-subtle flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-full bg-surface-container text-primary flex items-center justify-center font-bold text-xs font-title-md">
+                    IAS
+                  </div>
+<div class="text-[11px] leading-tight">
+<span class="font-bold text-text-primary block font-title-md">Faculty Board of 6 Mentors</span>
+<span class="text-text-muted">Led by Retd. Additional Secy.</span>
+</div>
+</div>
+<p class="text-xs text-text-muted line-clamp-2">
+                  Complete GS Paper I to IV syllabus, Mains answer checking within 24 hours, and monthly Yojana/Kurukshetra digest.
+                </p>
+</div>
+</div>
+<div class="p-5 pt-0 border-t border-border-subtle mt-2">
+<div class="flex items-center justify-between pt-3">
+<div>
+<span class="text-[11px] text-text-muted line-through font-title-md">₹29,999</span>
+<div class="text-lg font-bold text-brand-indigo-deep font-metric-display">₹14,999</div>
+<span class="text-[10px] text-accent-emerald font-semibold font-title-md">EMI from ₹2,500/mo</span>
+</div>
+<div class="flex flex-col gap-1">
+<a class="px-3 py-1.5 rounded bg-primary text-white text-xs font-bold text-center hover:bg-brand-indigo-hover transition-colors font-title-md" href="#cbt-simulator">
+                    Enroll Now
+                  </a>
+<a class="text-[10px] text-center text-primary font-semibold hover:underline font-title-md" href="#">
+                    Watch Free Demo
+                  </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Course 3 -->
+<div class="bg-canvas-slate rounded-xl border border-border-subtle overflow-hidden flex flex-col justify-between hover:shadow-xl transition-all group">
+<div>
+<div class="relative aspect-video w-full overflow-hidden bg-surface-container">
+<img alt="Banking PO Batch" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmR-0oyTJThB96kdKWA3BRtdn4k5vVMMe9xSJjiXjaQq5K9WehPwRrvqjzOJsHs4PS_cJztZuFom8U0OMfaFDC4o3FnZ7hcHry1f9VIaRDug74VZHFA0LUlEh_6U3xwjimYWnIRUz4f6ckTUpArOmE-b_juQPWxUripQ8VVg8yF6Uv9d9j2jUbpqqtfkBKlh4oz_7iz0PY1Qkljlo4TEXHcB49qlfVc-d2-Zp8M7zNadIfR_iQzBqW"/>
+<div class="absolute top-2 left-2 flex gap-1 font-title-md">
+<span class="px-2 py-0.5 rounded bg-tertiary-container text-white text-[10px] font-bold">Fast-Track</span>
+<span class="px-2 py-0.5 rounded bg-surface-white text-text-primary text-[10px] font-bold">SBI + IBPS</span>
+</div>
+<span class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-surface-white/95 font-bold text-xs text-text-primary flex items-center gap-1 shadow-xs font-title-md">
+<span class="material-symbols-outlined text-[14px] text-accent-amber" style="font-variation-settings: 'FILL' 1;">star</span>
+                  4.8 (3,120)
+                </span>
+</div>
+<div class="p-5 space-y-3">
+<div class="flex items-center gap-1 text-[11px] text-text-muted font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">schedule</span>
+<span class="">Daily 2 Hours • High Speed</span>
+</div>
+<h3 class="font-title-md text-base font-bold text-brand-indigo-deep group-hover:text-primary transition-colors leading-snug">
+                  SBI PO &amp; Clerk Comprehensive Mastery
+                </h3>
+<!-- Instructor Credentials -->
+<div class="p-2.5 rounded bg-surface-white border border-border-subtle flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-full bg-accent-emerald-subtle text-accent-emerald flex items-center justify-center font-bold text-xs font-title-md">
+                    PO
+                  </div>
+<div class="text-[11px] leading-tight">
+<span class="font-bold text-text-primary block font-title-md">Neha Saxena</span>
+<span class="text-text-muted">SBI PO Rank 4 (2019)</span>
+</div>
+</div>
+<p class="text-xs text-text-muted line-clamp-2">
+                  Special focus on advanced 4-variable puzzles, caselet data interpretation, and descriptive letter/essay correction.
+                </p>
+</div>
+</div>
+<div class="p-5 pt-0 border-t border-border-subtle mt-2">
+<div class="flex items-center justify-between pt-3">
+<div>
+<span class="text-[11px] text-text-muted line-through font-title-md">₹7,999</span>
+<div class="text-lg font-bold text-brand-indigo-deep font-metric-display">₹3,999</div>
+<span class="text-[10px] text-accent-emerald font-semibold font-title-md">3-Month Plan Available</span>
+</div>
+<div class="flex flex-col gap-1">
+<a class="px-3 py-1.5 rounded bg-primary text-white text-xs font-bold text-center hover:bg-brand-indigo-hover transition-colors font-title-md" href="#cbt-simulator">
+                    Enroll Now
+                  </a>
+<a class="text-[10px] text-center text-primary font-semibold hover:underline font-title-md" href="#">
+                    Watch Free Demo
+                  </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Course 4 -->
+<div class="bg-canvas-slate rounded-xl border border-border-subtle overflow-hidden flex flex-col justify-between hover:shadow-xl transition-all group">
+<div>
+<div class="relative aspect-video w-full overflow-hidden bg-surface-container">
+<img alt="RRB NTPC Batch" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa6s-fjiUiexdMJ1rLgJ02i7XcdktTWjzG3IerxZY8A1hh6HB5EEd-9HASCSgkSM5tu3vGd2Ez2fAI75Lc0Q5NDGaMIA2GjjZAYYhiHl2v4C9lpPxVSmNGhe8XEiHVmRI2vJEGzvodeqhlt_EVPRcwK1Cg1JGrsNeZU3k9razEpIPgtH7lqjU14b7pgoaLZ6h0eDy1efD18hj4oJpHsjiHwWoOxylUDMsT6lgCGaPoFB2wYUCboj9_"/>
+<div class="absolute top-2 left-2 flex gap-1 font-title-md">
+<span class="px-2 py-0.5 rounded bg-secondary text-white text-[10px] font-bold">CEN 05/2025</span>
+<span class="px-2 py-0.5 rounded bg-surface-white text-text-primary text-[10px] font-bold">Bilingual</span>
+</div>
+<span class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-surface-white/95 font-bold text-xs text-text-primary flex items-center gap-1 shadow-xs font-title-md">
+<span class="material-symbols-outlined text-[14px] text-accent-amber" style="font-variation-settings: 'FILL' 1;">star</span>
+                  4.7 (2,680)
+                </span>
+</div>
+<div class="p-5 space-y-3">
+<div class="flex items-center gap-1 text-[11px] text-text-muted font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">schedule</span>
+<span class="">Recorded + Live Doubt Hub</span>
+</div>
+<h3 class="font-title-md text-base font-bold text-brand-indigo-deep group-hover:text-primary transition-colors leading-snug">
+                  RRB NTPC &amp; Group D Complete Target Batch
+                </h3>
+<!-- Instructor Credentials -->
+<div class="p-2.5 rounded bg-surface-white border border-border-subtle flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-full bg-accent-amber-subtle text-accent-amber flex items-center justify-center font-bold text-xs font-title-md">
+                    GS
+                  </div>
+<div class="text-[11px] leading-tight">
+<span class="font-bold text-text-primary block font-title-md">Er. Amit Mishra</span>
+<span class="text-text-muted">Science &amp; GK Specialist</span>
+</div>
+</div>
+<p class="text-xs text-text-muted line-clamp-2">
+                  Special capsule for NCERT General Science, speed arithmetic drills, and 30 bilingual CBT simulator tests.
+                </p>
+</div>
+</div>
+<div class="p-5 pt-0 border-t border-border-subtle mt-2">
+<div class="flex items-center justify-between pt-3">
+<div>
+<span class="text-[11px] text-text-muted line-through font-title-md">₹4,999</span>
+<div class="text-lg font-bold text-brand-indigo-deep font-metric-display">₹2,499</div>
+<span class="text-[10px] text-accent-emerald font-semibold font-title-md">Special Discount Active</span>
+</div>
+<div class="flex flex-col gap-1">
+<a class="px-3 py-1.5 rounded bg-primary text-white text-xs font-bold text-center hover:bg-brand-indigo-hover transition-colors font-title-md" href="#cbt-simulator">
+                    Enroll Now
+                  </a>
+<a class="text-[10px] text-center text-primary font-semibold hover:underline font-title-md" href="#">
+                    Watch Free Demo
+                  </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5 & 6 ENHANCED: EXAM CBT ENGINE & LIVE PERCENTILE ANALYTICS -->
+<section class="w-full py-16 lg:py-24 bg-canvas-slate" id="cbt-simulator">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-12">
+<div class="text-center max-w-3xl mx-auto space-y-3">
+<span class="text-xs font-bold uppercase tracking-wider text-primary font-title-md">Zero Exam Day Surprise</span>
+<h2 class="font-headline-lg text-3xl sm:text-4xl text-brand-indigo-deep font-bold tracking-tight">
+            The Exact TCS iON Exam Console Simulation
+          </h2>
+<p class="text-sm sm:text-base text-text-muted">
+            Do not lose 10 to 15 marks to clumsy navigation on exam day. Train your reflexes inside our pixel-accurate NTA/TCS testing console with authentic negative marking dynamics.
+          </p>
+</div>
+<!-- CBT Simulator Mockup Window -->
+<div class="rounded-2xl border-2 border-border-strong shadow-2xl bg-surface-white overflow-hidden">
+<!-- Mock Header Bar -->
+<div class="bg-brand-indigo-deep text-on-primary px-6 py-4 flex flex-wrap items-center justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-tertiary-fixed text-[24px]">terminal</span>
+<div>
+<h4 class="font-title-md text-sm sm:text-base font-bold">SSC CGL Tier-1 Official Pattern Mock #14 (All India Live)</h4>
+<p class="text-xs text-secondary-fixed-dim font-sans">Marking Scheme: Correct +2.00 • Negative -0.50 Penalty • Language: English</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="px-4 py-1.5 rounded-lg bg-surface-white/10 border border-surface-white/20 flex items-center gap-2">
+<span class="material-symbols-outlined text-accent-amber text-[18px]">timer</span>
+<span class="font-mono text-sm sm:text-base font-bold text-white tracking-wider">Remaining: 34:18</span>
+</div>
+<button class="px-4 py-2 rounded bg-error text-white text-xs font-bold hover:bg-error/90 transition-colors shadow-xs font-title-md" type="button">
+                Submit Test Paper
+              </button>
+</div>
+</div>
+<!-- Section Navigation Strip -->
+<div class="bg-canvas-slate border-b border-border-subtle px-6 py-2 flex flex-wrap items-center gap-2 text-xs font-semibold font-title-md">
+<button class="px-3.5 py-1.5 rounded bg-surface-white border border-border-subtle text-text-secondary hover:text-primary" type="button">
+              Section 1: General Intelligence &amp; Reasoning (25)
+            </button>
+<button class="px-3.5 py-1.5 rounded bg-surface-white border border-border-subtle text-text-secondary hover:text-primary" type="button">
+              Section 2: General Awareness (25)
+            </button>
+<button class="px-3.5 py-1.5 rounded bg-primary text-white shadow-xs" type="button">
+              Section 3: Quantitative Aptitude (25)
+            </button>
+<button class="px-3.5 py-1.5 rounded bg-surface-white border border-border-subtle text-text-secondary hover:text-primary" type="button">
+              Section 4: English Comprehension (25)
+            </button>
+</div>
+<!-- Main Split Console Body -->
+<div class="grid grid-cols-1 lg:grid-cols-12 min-h-[480px]">
+<!-- Left 8 Cols: Question Display -->
+<div class="lg:col-span-8 p-6 lg:p-8 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-border-subtle bg-surface-white space-y-6">
+<div class="space-y-6">
+<div class="flex items-center justify-between border-b border-border-subtle pb-3">
+<div class="flex items-center gap-2">
+<span class="font-bold text-base text-brand-indigo-deep font-title-md">Question 42</span>
+<span class="px-2 py-0.5 rounded bg-brand-indigo-light text-primary text-[11px] font-bold font-title-md">Single Choice MCQ</span>
+</div>
+<div class="flex items-center gap-2 text-xs font-title-md">
+<span class="text-accent-emerald font-bold">+2.00</span>
+<span class="text-text-muted">•</span>
+<span class="text-accent-rose font-bold">-0.50 Mark</span>
+</div>
+</div>
+<p class="font-body-md text-base text-text-primary font-medium leading-relaxed">
+                  A shopkeeper marks an article 35% above the cost price and allows a discount of 20% on the marked price. If he also offers an additional promotional rebate of ₹48 on cash payment and still registers a net gain of 5%, what is the original cost price (CP) of the article?
+                </p>
+<!-- Options Grid -->
+<div class="space-y-3 pt-2">
+<label class="flex items-center gap-3 p-3.5 rounded-lg border border-border-subtle hover:bg-canvas-slate cursor-pointer transition-colors text-sm">
+<input class="text-primary focus:ring-primary w-4 h-4" name="cbt_q" type="radio"/>
+<span class="text-text-primary">A) ₹1,400</span>
+</label>
+<label class="flex items-center gap-3 p-3.5 rounded-lg border-2 border-primary bg-brand-indigo-light/50 cursor-pointer text-sm">
+<input checked="" class="text-primary focus:ring-primary w-4 h-4" name="cbt_q" type="radio"/>
+<span class="text-primary font-bold font-title-md">B) ₹1,600 (Selected Response)</span>
+</label>
+<label class="flex items-center gap-3 p-3.5 rounded-lg border border-border-subtle hover:bg-canvas-slate cursor-pointer transition-colors text-sm">
+<input class="text-primary focus:ring-primary w-4 h-4" name="cbt_q" type="radio"/>
+<span class="text-text-primary">C) ₹1,750</span>
+</label>
+<label class="flex items-center gap-3 p-3.5 rounded-lg border border-border-subtle hover:bg-canvas-slate cursor-pointer transition-colors text-sm">
+<input class="text-primary focus:ring-primary w-4 h-4" name="cbt_q" type="radio"/>
+<span class="text-text-primary">D) ₹1,800</span>
+</label>
+</div>
+</div>
+<!-- Question Controls -->
+<div class="pt-4 border-t border-border-subtle flex flex-wrap items-center justify-between gap-3 text-xs font-semibold font-title-md">
+<div class="flex items-center gap-2">
+<button class="px-4 py-2 rounded bg-canvas-slate border border-border-strong text-text-secondary hover:bg-border-subtle" type="button">
+                    Mark for Review &amp; Next
+                  </button>
+<button class="px-4 py-2 rounded bg-canvas-slate border border-border-strong text-text-secondary hover:bg-border-subtle" type="button">
+                    Clear Response
+                  </button>
+</div>
+<button class="px-6 py-2.5 rounded bg-primary text-white font-bold hover:bg-brand-indigo-hover shadow-sm font-title-md" type="button">
+                  Save &amp; Next →
+                </button>
+</div>
+</div>
+<!-- Right 4 Cols: Question Palette Matrix -->
+<div class="lg:col-span-4 p-6 bg-canvas-slate flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<h5 class="text-xs font-bold text-text-muted uppercase tracking-wider font-title-md">Question Status Palette</h5>
+<!-- Status Legend -->
+<div class="grid grid-cols-2 gap-2 text-xs font-title-md">
+<div class="flex items-center gap-1.5">
+<span class="w-3.5 h-3.5 rounded bg-accent-emerald text-white text-[9px] flex items-center justify-center font-bold">18</span>
+<span class="text-text-secondary">Answered</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3.5 h-3.5 rounded bg-accent-rose text-white text-[9px] flex items-center justify-center font-bold">4</span>
+<span class="text-text-secondary">Not Answered</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3.5 h-3.5 rounded bg-accent-amber text-white text-[9px] flex items-center justify-center font-bold">2</span>
+<span class="text-text-secondary">Marked Review</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3.5 h-3.5 rounded bg-surface-white border border-border-strong text-text-secondary text-[9px] flex items-center justify-center font-bold">1</span>
+<span class="text-text-secondary">Not Visited</span>
+</div>
+</div>
+<!-- Number Grid for Section 3 (25 Qs) -->
+<div class="pt-2">
+<div class="text-[11px] font-semibold text-text-muted mb-2 font-title-md">Quant Section Matrix:</div>
+<div class="grid grid-cols-5 gap-2 font-mono text-xs">
+<span class="h-8 rounded bg-accent-emerald text-white font-bold flex items-center justify-center shadow-xs">31</span>
+<span class="h-8 rounded bg-accent-emerald text-white font-bold flex items-center justify-center shadow-xs">32</span>
+<span class="h-8 rounded bg-accent-emerald text-white font-bold flex items-center justify-center shadow-xs">33</span>
+<span class="h-8 rounded bg-accent-rose text-white font-bold flex items-center justify-center shadow-xs">34</span>
+<span class="h-8 rounded bg-accent-amber text-white font-bold flex items-center justify-center shadow-xs">35</span>
+<span class="h-8 rounded bg-accent-emerald text-white font-bold flex items-center justify-center shadow-xs">36</span>
+<span class="h-8 rounded bg-accent-emerald text-white font-bold flex items-center justify-center shadow-xs">37</span>
+<span class="h-8 rounded bg-accent-emerald text-white font-bold flex items-center justify-center shadow-xs">38</span>
+<span class="h-8 rounded bg-accent-rose text-white font-bold flex items-center justify-center shadow-xs">39</span>
+<span class="h-8 rounded bg-accent-emerald text-white font-bold flex items-center justify-center shadow-xs">40</span>
+<span class="h-8 rounded bg-accent-amber text-white font-bold flex items-center justify-center shadow-xs">41</span>
+<span class="h-8 rounded bg-primary text-white font-bold ring-2 ring-primary ring-offset-2 flex items-center justify-center shadow-sm">42</span>
+<span class="h-8 rounded bg-surface-white border border-border-strong text-text-secondary font-semibold flex items-center justify-center">43</span>
+<span class="h-8 rounded bg-surface-white border border-border-strong text-text-secondary font-semibold flex items-center justify-center">44</span>
+<span class="h-8 rounded bg-surface-white border border-border-strong text-text-secondary font-semibold flex items-center justify-center">45</span>
+<span class="h-8 rounded bg-surface-white border border-border-strong text-text-secondary font-semibold flex items-center justify-center">46</span>
+<span class="h-8 rounded bg-surface-white border border-border-strong text-text-secondary font-semibold flex items-center justify-center">47</span>
+<span class="h-8 rounded bg-surface-white border border-border-strong text-text-secondary font-semibold flex items-center justify-center">48</span>
+<span class="h-8 rounded bg-surface-white border border-border-strong text-text-secondary font-semibold flex items-center justify-center">49</span>
+<span class="h-8 rounded bg-surface-white border border-border-strong text-text-secondary font-semibold flex items-center justify-center">50</span>
+</div>
+</div>
+</div>
+<!-- CBT Diagnostic Action CTA -->
+<div class="pt-4 border-t border-border-subtle space-y-2 font-title-md">
+<a class="w-full py-2.5 px-4 rounded bg-primary text-white text-xs font-bold text-center block hover:bg-brand-indigo-hover transition-colors" href="#exam-selector">
+                  Take Full Free 100-Question Mock
+                </a>
+<a class="w-full py-2 px-4 rounded bg-surface-white border border-border-strong text-text-secondary text-xs font-semibold text-center block hover:bg-canvas-slate transition-colors" href="#learning-system">
+                  View Syllabus Checklist
+                </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: DAILY CURRENT AFFAIRS & THE HINDU / PIB EDITORIAL -->
+<section class="w-full py-16 lg:py-24 bg-surface-white border-y border-border-subtle" id="current-affairs">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div class="max-w-xl space-y-2">
+<span class="text-xs font-bold uppercase tracking-wider text-primary font-title-md">Published Every Morning at 7:00 AM IST</span>
+<h2 class="font-headline-lg text-3xl sm:text-4xl text-brand-indigo-deep font-bold tracking-tight">
+              Daily Editorial Dossier &amp; PIB Briefs
+            </h2>
+<p class="text-sm sm:text-base text-text-muted">
+              Cut through newspaper clutter. Our editorial cell filters 200+ news articles every morning down to 3 exam-critical analyses with direct PYQ cross-references.
+            </p>
+</div>
+<a class="inline-flex items-center gap-1 text-primary text-sm font-bold hover:underline font-title-md" href="#">
+<span class="">Download Monthly Current Affairs PDF</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Article 1 -->
+<article class="bg-canvas-slate rounded-xl border border-border-subtle p-6 hover:shadow-lg transition-all flex flex-col justify-between space-y-5">
+<div class="space-y-3">
+<div class="flex items-center justify-between text-xs font-title-md">
+<span class="px-2.5 py-1 rounded bg-brand-indigo-light text-primary font-bold">General Studies II &amp; III</span>
+<span class="text-text-muted">Today • 7 Min Read</span>
+</div>
+<h3 class="font-headline-sm text-xl font-bold text-brand-indigo-deep hover:text-primary transition-colors cursor-pointer leading-snug">
+                Cabinet Approves ₹12,000 Cr Mission for Semiconductor Clusters
+              </h3>
+<p class="text-xs text-text-secondary leading-relaxed">
+                Critical UPSC &amp; SSC takeaways: India Semiconductor Mission (ISM) Phase 2 incentives, fabrication subsidies, silicon wafer supply chain bottlenecks, and export comparisons with East Asia.
+              </p>
+</div>
+<div class="pt-4 border-t border-border-subtle flex items-center justify-between font-title-md">
+<span class="text-[11px] font-bold text-text-muted">Tagged: UPSC Mains GS-3</span>
+<a class="text-xs font-bold text-primary hover:underline" href="#">Read Full Breakdown →</a>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="bg-canvas-slate rounded-xl border border-border-subtle p-6 hover:shadow-lg transition-all flex flex-col justify-between space-y-5">
+<div class="space-y-3">
+<div class="flex items-center justify-between text-xs font-title-md">
+<span class="px-2.5 py-1 rounded bg-accent-emerald-subtle text-accent-emerald font-bold">Banking &amp; Monetary Policy</span>
+<span class="text-text-muted">Today • 5 Min Read</span>
+</div>
+<h3 class="font-headline-sm text-xl font-bold text-brand-indigo-deep hover:text-primary transition-colors cursor-pointer leading-snug">
+                RBI MPC Keeps Repo Rate Steady at 6.5%: Cutoff Impact Analysis
+              </h3>
+<p class="text-xs text-text-secondary leading-relaxed">
+                Crucial for SBI PO &amp; RBI Grade B: Liquidity Coverage Ratio (LCR) buffers, core CPI projection curves, stance shifted from ‘Withdrawal of Accommodation’ to ‘Neutral’, and bond yields.
+              </p>
+</div>
+<div class="pt-4 border-t border-border-subtle flex items-center justify-between font-title-md">
+<span class="text-[11px] font-bold text-text-muted">Tagged: Banking Awareness</span>
+<a class="text-xs font-bold text-primary hover:underline" href="#">Read Full Breakdown →</a>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="bg-canvas-slate rounded-xl border border-border-subtle p-6 hover:shadow-lg transition-all flex flex-col justify-between space-y-5">
+<div class="space-y-3">
+<div class="flex items-center justify-between text-xs font-title-md">
+<span class="px-2.5 py-1 rounded bg-accent-amber-subtle text-accent-amber font-bold">Science &amp; National Defence</span>
+<span class="text-text-muted">Yesterday • 6 Min Read</span>
+</div>
+<h3 class="font-headline-sm text-xl font-bold text-brand-indigo-deep hover:text-primary transition-colors cursor-pointer leading-snug">
+                ISRO Successfully Hot-Tests Semi-Cryogenic Engine Pre-Burner
+              </h3>
+<p class="text-xs text-text-secondary leading-relaxed">
+                Exam relevance for NDA, CDS &amp; SSC: Liquid Propulsion Systems Centre (LPSC) achievements, Isogrid design features, RP-1 kerosene propellant vs liquid hydrogen comparisons.
+              </p>
+</div>
+<div class="pt-4 border-t border-border-subtle flex items-center justify-between font-title-md">
+<span class="text-[11px] font-bold text-text-muted">Tagged: Defence / Science</span>
+<a class="text-xs font-bold text-primary hover:underline" href="#">Read Full Breakdown →</a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- SECTION 8: OFFLINE COUNSELING CENTERS & HYBRID LABS -->
+<section class="w-full py-16 lg:py-24 bg-canvas-slate" id="offline-centers">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-12">
+<div class="text-center max-w-2xl mx-auto space-y-3">
+<span class="text-xs font-bold uppercase tracking-wider text-primary font-title-md">In-Person Academic Guidance</span>
+<h2 class="font-headline-lg text-3xl sm:text-4xl text-brand-indigo-deep font-bold tracking-tight">
+            Visit Our Hybrid Learning Centers
+          </h2>
+<p class="text-sm sm:text-base text-text-muted">
+            Prefer classroom doubt-clearing and dedicated silent library desks? Walk into our flagship learning centers in Delhi and Bihar for 1-on-1 counselor guidance.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Center 1: Mukherjee Nagar -->
+<div class="bg-surface-white rounded-2xl border border-border-subtle p-6 lg:p-8 shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded bg-brand-indigo-deep text-white text-xs font-bold uppercase tracking-wider font-title-md">North India Flagship</span>
+<span class="text-xs text-accent-emerald font-bold flex items-center gap-1 font-title-md">
+<span class="w-2 h-2 rounded-full bg-accent-emerald"></span>
+                  Open Daily: 8:00 AM - 9:00 PM
+                </span>
+</div>
+<h3 class="font-headline-md text-2xl font-bold text-brand-indigo-deep">
+                Mukherjee Nagar Academic Center &amp; CBT Lab
+              </h3>
+<p class="text-sm text-text-secondary leading-relaxed">
+                24/8 Commercial Complex, Near GTB Nagar Metro Station (Gate 2), Mukherjee Nagar, New Delhi 110009.
+              </p>
+<div class="grid grid-cols-2 gap-3 pt-2 text-xs">
+<div class="p-3 bg-canvas-slate rounded-lg border border-border-subtle">
+<span class="font-bold text-text-primary block font-title-md">120-Seat CBT Lab</span>
+<span class="text-text-muted">Actual TCS exam layout terminals</span>
+</div>
+<div class="p-3 bg-canvas-slate rounded-lg border border-border-subtle">
+<span class="font-bold text-text-primary block font-title-md">Faculty Chambers</span>
+<span class="text-text-muted">Daily 1-on-1 doubt counters</span>
+</div>
+</div>
+</div>
+<div class="pt-4 border-t border-border-subtle flex flex-wrap items-center justify-between gap-3 font-title-md">
+<a class="inline-flex items-center gap-1.5 text-xs font-bold text-text-primary hover:text-primary" href="tel:18008903456">
+<span class="material-symbols-outlined text-[16px] text-primary">call</span>
+<span class="">Call Center: 011-4567-8900</span>
+</a>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-accent-emerald-subtle text-tertiary text-xs font-bold hover:bg-accent-emerald hover:text-white transition-colors" href="https://wa.me/919876543210" target="_blank">
+<span class="material-symbols-outlined text-[16px] text-whatsapp-green">chat</span>
+<span class="">Book In-Person Counseling</span>
+</a>
+</div>
+</div>
+<!-- Center 2: Patna -->
+<div class="bg-surface-white rounded-2xl border border-border-subtle p-6 lg:p-8 shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded bg-brand-indigo-deep text-white text-xs font-bold uppercase tracking-wider font-title-md">East India Hub</span>
+<span class="text-xs text-accent-emerald font-bold flex items-center gap-1 font-title-md">
+<span class="w-2 h-2 rounded-full bg-accent-emerald"></span>
+                  Open Daily: 8:00 AM - 8:30 PM
+                </span>
+</div>
+<h3 class="font-headline-md text-2xl font-bold text-brand-indigo-deep">
+                Boring Road Central Center &amp; Reading Room
+              </h3>
+<p class="text-sm text-text-secondary leading-relaxed">
+                4th Floor, Surya Crystal Tower, Near Boring Road Crossing, Patna, Bihar 800001.
+              </p>
+<div class="grid grid-cols-2 gap-3 pt-2 text-xs">
+<div class="p-3 bg-canvas-slate rounded-lg border border-border-subtle">
+<span class="font-bold text-text-primary block font-title-md">BPSC Special Cell</span>
+<span class="text-text-muted">State administrative paper specialists</span>
+</div>
+<div class="p-3 bg-canvas-slate rounded-lg border border-border-subtle">
+<span class="font-bold text-text-primary block font-title-md">24/7 Silent Desk Access</span>
+<span class="text-text-muted">High-speed Wi-Fi &amp; charging</span>
+</div>
+</div>
+</div>
+<div class="pt-4 border-t border-border-subtle flex flex-wrap items-center justify-between gap-3 font-title-md">
+<a class="inline-flex items-center gap-1.5 text-xs font-bold text-text-primary hover:text-primary" href="tel:18008903456">
+<span class="material-symbols-outlined text-[16px] text-primary">call</span>
+<span class="">Call Center: 0612-2548-910</span>
+</a>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-accent-emerald-subtle text-tertiary text-xs font-bold hover:bg-accent-emerald hover:text-white transition-colors" href="https://wa.me/919876543210" target="_blank">
+<span class="material-symbols-outlined text-[16px] text-whatsapp-green">chat</span>
+<span class="">Book In-Person Counseling</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 9: REVIEWS WITH REAL VERIFIED CADRES -->
+<section class="w-full py-16 lg:py-24 bg-surface-white border-t border-border-subtle">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-12">
+<div class="text-center max-w-2xl mx-auto space-y-3">
+<span class="text-xs font-bold uppercase tracking-wider text-primary font-title-md">Aspirant Hall of Fame</span>
+<h2 class="font-headline-lg text-3xl sm:text-4xl text-brand-indigo-deep font-bold tracking-tight">
+            Verified Rank Holders &amp; Aspirants
+          </h2>
+<p class="text-sm sm:text-base text-text-muted">
+            Independent testimonials from candidates who transitioned from random preparation to systematic cutoff clearance.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-canvas-slate rounded-xl border border-border-subtle p-6 shadow-xs flex flex-col justify-between space-y-5">
+<div class="space-y-3">
+<div class="flex text-accent-amber">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-xs text-text-secondary italic leading-relaxed">
+                “ExamGuru’s negative marking penalty audit stopped me from losing 14-16 marks on blind guesses in SSC CGL Tier 1. The TCS mock interface is so authentic that the actual exam hall felt like another routine practice test.”
+              </p>
+</div>
+<div class="pt-4 border-t border-border-subtle flex items-center gap-3">
+<img alt="Ananya Sharma" class="w-10 h-10 rounded-full object-cover ring-2 ring-primary/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMEwgBVbWk0-5DHF__cUYm6WVq_tVpwg4iIWl5WyF_zAGI9p1Mn3vjzyUFtsDnhErWUoEu9G2mqksmg5k72iPZ24e4YlptcWYz8-FvhyIuT1OlGMRkkzIBVI_x9IxRnYpncg5BSz5RSzZABReMg7mxvaHSvjTz59kCxUEohuR1Lv4R-LC0Zz4jb-SDhurk1sPWp1xeLN3WNMfOdWl0hdjQI6LTIo7m6xdsEz9HQ0faH_Ml35jPyUwv"/>
+<div>
+<div class="text-sm font-bold text-brand-indigo-deep font-title-md">Ananya Sharma</div>
+<span class="text-[11px] text-text-muted font-sans">Cleared SSC CGL Tier 1 (168 Raw) • Delhi</span>
+</div>
+</div>
+</div>
+<div class="bg-canvas-slate rounded-xl border border-border-subtle p-6 shadow-xs flex flex-col justify-between space-y-5">
+<div class="space-y-3">
+<div class="flex text-accent-amber">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-xs text-text-secondary italic leading-relaxed">
+                “Managing full-time IT shifts left me with 3 hours daily. Neha ma'am's high-level puzzle capsules and weekend sectional speed drills enabled me to clear SBI PO Prelims on my first attempt with a 98.4 percentile.”
+              </p>
+</div>
+<div class="pt-4 border-t border-border-subtle flex items-center gap-3">
+<img alt="Rohan Kulkarni" class="w-10 h-10 rounded-full object-cover ring-2 ring-primary/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCJcMBnd9Tr0DBmQkf46ZBDkWs-Q-RNIo9-DLFpi6r9v3NXSTYptCwcNP-9uZ1IFFhuPGFU5GANcinvGaWHFWqf3W2p5ECfTg_N6Afi5noHmwClhgh-D3u-4emkU2-bA6T05pyIVC6C7mKjAPRbLrs_nta5-U18VVZVzDfsILnKskkMeP2J7Rtq8XPAVr8tN3705Cjv1tw2CA09UyAtHDP16oupd0HMofJz4HlRMuSlcwKHCSAu9MM"/>
+<div>
+<div class="text-sm font-bold text-brand-indigo-deep font-title-md">Rohan Kulkarni</div>
+<span class="text-[11px] text-text-muted font-sans">SBI PO Finalist • Pune</span>
+</div>
+</div>
+</div>
+<div class="bg-canvas-slate rounded-xl border border-border-subtle p-6 shadow-xs flex flex-col justify-between space-y-5">
+<div class="space-y-3">
+<div class="flex text-accent-amber">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-xs text-text-secondary italic leading-relaxed">
+                “The BPSC Mains answer evaluation turnaround was within 24 hours. The faculty noted specific areas in my Bihar administrative geography answers that pushed my score well above the general cutoff.”
+              </p>
+</div>
+<div class="pt-4 border-t border-border-subtle flex items-center gap-3">
+<img alt="Meera Patel" class="w-10 h-10 rounded-full object-cover ring-2 ring-primary/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDz6ebfoiIqFVTx5SQUgslEpoEB-O81OIXYyRQka3lPyJFVJ5k4pjut2yXtA8TojhvUi9WMUzQQruXii1I9TYVSrnj14ZYYzE_ZOXxJ6XU43NckYpa46hVFtQBSZMJ7DLHBOw16EFOtJgwzk4Nd5LSjn1b5XS_rmmbNaZdqq1qbVCuQqxTwFSRbH_9lmai_kK6WaMV_tEGGp2BpToF52-0ucB7XgyaDYDiCdQ49gX6xvN2qsWY20aiR"/>
+<div>
+<div class="text-sm font-bold text-brand-indigo-deep font-title-md">Meera Patel</div>
+<span class="text-[11px] text-text-muted font-sans">69th BPSC Qualified • Patna</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 10: CONVERTING CTA BANNER -->
+<section class="w-full py-16 lg:py-24 bg-surface-white border-t border-border-subtle">
+<div class="max-w-7xl mx-auto px-4 sm:px-6">
+<div class="rounded-2xl bg-gradient-to-br from-brand-indigo-deep via-primary to-primary-container p-8 lg:p-16 text-on-primary text-center relative overflow-hidden shadow-2xl">
+<div class="absolute -top-24 -left-24 w-80 h-80 rounded-full bg-white/10 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-tertiary-fixed/20 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 max-w-3xl mx-auto space-y-6">
+<span class="px-4 py-1.5 rounded-full bg-white/15 text-white border border-white/20 text-xs font-bold uppercase tracking-wider inline-block font-title-md">
+              Free 7-Day All-Access Pass Active
+            </span>
+<h2 class="font-headline-lg text-3xl sm:text-4xl lg:text-5xl text-white font-extrabold tracking-tight">
+              Your Government Career Begins with One Methodical Step.
+            </h2>
+<p class="text-sm sm:text-base text-secondary-fixed-dim leading-relaxed max-w-2xl mx-auto">
+              Access 50,000+ PYQs, the official TCS mock simulator, and daily live classes. No credit card required to begin your diagnostic evaluation.
+            </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2 font-title-md">
+<a class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-surface-white text-primary text-sm font-bold shadow-lg hover:bg-canvas-slate active:scale-[0.98] transition-all" href="#exam-selector">
+<span class="">Enroll in Free Diagnostic Mock</span>
+<span class="material-symbols-outlined text-[18px] ml-1.5">arrow_forward</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white/10 hover:bg-white/20 text-white border border-white/30 text-sm font-semibold transition-all" href="#offline-centers">
+<span class="">Locate Offline Centers</span>
+</a>
+</div>
+<div class="pt-6 border-t border-white/15 flex items-center justify-center">
+<a class="inline-flex items-center gap-2 text-tertiary-fixed text-xs sm:text-sm font-semibold hover:underline font-title-md" href="https://wa.me/919876543210" target="_blank">
+<span class="material-symbols-outlined text-[20px] text-tertiary-fixed">chat</span>
+<span class="">Uncertain about cadre selection or age limits? Consult Academic Dean on WhatsApp →</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- MOBILE STICKY COUNSELING BAR -->
+<div class="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-surface-white border-t border-border-subtle px-4 py-2.5 shadow-[0_-4px_16px_rgba(15,23,42,0.06)] font-title-md">
+<div class="grid grid-cols-3 gap-2">
+<a class="flex flex-col items-center justify-center py-1.5 px-2 rounded-lg bg-canvas-slate text-text-secondary text-center text-xs" href="tel:18008903456">
+<span class="material-symbols-outlined text-[20px] text-primary">call</span>
+<span class="font-medium mt-0.5">Call Dean</span>
+</a>
+<a class="flex flex-col items-center justify-center py-1.5 px-2 rounded-lg bg-accent-emerald-subtle text-tertiary text-center text-xs" href="https://wa.me/919876543210" target="_blank">
+<span class="material-symbols-outlined text-[20px] text-whatsapp-green">chat</span>
+<span class="font-bold mt-0.5">WhatsApp</span>
+</a>
+<a class="flex flex-col items-center justify-center py-1.5 px-2 rounded-lg bg-primary text-white text-center text-xs font-bold" href="#cbt-simulator">
+<span class="material-symbols-outlined text-[20px]">play_circle</span>
+<span class="mt-0.5">Free CBT</span>
+</a>
+</div>
+</div>
+<!-- FOOTER -->
+<footer class="w-full bg-[#0b1329] text-slate-200 border-t border-slate-800 pt-16 pb-16 font-sans">
+<div class="max-w-7xl mx-auto px-4 sm:px-6">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 pb-12 border-b border-slate-800/80">
+<!-- Brand & Locations -->
+<div class="lg:col-span-2 space-y-4">
+<div class="flex items-center gap-3">
+<img alt="ExamGuru" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UZF8CPtECMNC3hOghbKg8szGaABb5ie3dJ9SXzFbo0ChE1Tg91-fMIJ8jvKEk0PfpW5Jw-wFuYqn064WStORtt7cdTuem4YRzwu4NdBviOW7k25pvZHMCwvELHDfBkj7ejNPIliBP4S_ms4AO67k_GVyXO19RZ5PcGJWZM7FfhDU0dfYm1LL8PAJWbvjtZOCD5cFU80cqHxFMA8fuXsrehs8UkBdYCZc4nCVwpLa9bzf1nMNb1jYsAIwU"/>
+</div>
+<p class="text-xs text-slate-400 leading-relaxed max-w-sm">
+            ExamGuru is India’s premier authority-first learning ecosystem for UPSC, SSC, Banking, and State civil service aspirants. Built on verified question patterns, TCS iON simulation, and 1-on-1 faculty counseling.
+          </p>
+<div class="space-y-1.5 pt-2 text-xs text-slate-300">
+<div class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-indigo-400 mt-0.5">location_on</span>
+<span class="">24/8 Mukherjee Nagar, Commercial Complex, Delhi 110009</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-indigo-400">call</span>
+<span class="">National Academic Helpline: 1800-890-3456</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-whatsapp-green">chat</span>
+<span class="">WhatsApp Counseling: +91 98765 43210</span>
+</div>
+</div>
+</div>
+<!-- Col 2: Exams -->
+<div class="space-y-3">
+<h4 class="font-title-md text-sm font-bold text-white">Cadres &amp; Exams</h4>
+<ul class="space-y-2 text-xs text-slate-400">
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#exam-selector">UPSC Civil Services (CSE)</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#exam-selector">SSC CGL Tier 1 &amp; Tier 2</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#exam-selector">SBI PO &amp; Clerk 2026</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#exam-selector">IBPS Specialist Officers</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#exam-selector">Railways RRB NTPC</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#exam-selector">State PSC (UP, Bihar, MP)</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#exam-selector">Defence (NDA &amp; CDS)</a></li>
+</ul>
+</div>
+<!-- Col 3: Resources -->
+<div class="space-y-3">
+<h4 class="font-title-md text-sm font-bold text-white">Free Resources</h4>
+<ul class="space-y-2 text-xs text-slate-400">
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#current-affairs">Daily PIB &amp; Hindu Briefs</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#cbt-simulator">Free TCS Pattern Mocks</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#learning-system">15-Year Solved PYQs</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#">Formula &amp; Shortcut Cheatsheets</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#">State GK Monthly Capsules</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#">Cut-off Margin Predictor</a></li>
+</ul>
+</div>
+<!-- Col 4: Corporate -->
+<div class="space-y-3">
+<h4 class="font-title-md text-sm font-bold text-white">Academy</h4>
+<ul class="space-y-2 text-xs text-slate-400">
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#offline-centers">Mukherjee Nagar Center</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#offline-centers">Patna Reading Rooms</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#courses-grid">Faculty &amp; Ex-Civil Servants</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#">Verified Results 2024-25</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#">Career Opportunities</a></li>
+<li class=""><a class="hover:text-indigo-400 transition-colors" href="#">Institutional Partnerships</a></li>
+</ul>
+</div>
+<!-- Col 5: Accreditations -->
+<div class="space-y-3">
+<h4 class="font-title-md text-sm font-bold text-white">Trust &amp; Standards</h4>
+<div class="space-y-2 pt-1 font-title-md">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-slate-800 text-emerald-400 border border-emerald-500/30 text-xs font-semibold">
+<span class="material-symbols-outlined text-[16px] text-emerald-400">verified</span>
+<span class="">ISO 9001:2015 Certified</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold">
+<span class="material-symbols-outlined text-[16px] text-amber-400">star</span>
+<span class="">Google 4.9/5 (18,200+ Reviews)</span>
+</div>
+<div class="text-[11px] text-slate-400 pt-1 font-sans">
+              Encrypted 256-Bit SSL • TCS Pattern Engine Validated
+            </div>
+</div>
+</div>
+</div>
+<div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+<div class="">
+          © 2026 ExamGuru Technologies Pvt. Ltd. All rights reserved. Crafted for Indian Aspirants.
+        </div>
+<div class="flex items-center gap-4 text-slate-300">
+<a class="hover:text-white hover:underline transition-colors" href="#">Privacy Policy</a>
+<span class="">•</span>
+<a class="hover:text-white hover:underline transition-colors" href="#">Terms of Enrollment</a>
+<span class="">•</span>
+<a class="hover:text-white hover:underline transition-colors" href="#">Student Grievance Cell</a>
+<span class="">•</span>
+<a class="hover:text-white hover:underline transition-colors" href="#">Refund Policy</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
