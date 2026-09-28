@@ -110,7 +110,7 @@ export default function Footer() {
 
         {/* Attribution */}
         <div className="mt-6 pt-4 border-t border-slate-800/60 text-center text-xs font-title-md text-slate-400 tracking-wide">
-          Design With <span className="text-indigo-400 font-bold hover:text-indigo-300 transition-colors">Abinash</span>
+          Designed with ❤️ by <span className="text-indigo-400 font-bold hover:text-indigo-300 transition-colors">Abinash</span>
         </div>
       </div>
     </footer>

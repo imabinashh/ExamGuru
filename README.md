@@ -156,5 +156,5 @@ ExamGuru/
 
 ## 👨‍💻 Author & Attribution
 
-**Design With Abinash**  
+**Designed with ❤️ by Abinash**  
 Crafted with passion for Indian government exam aspirants.
